@@ -47,18 +47,37 @@
 ---
 
 ## 🛠️ For Developers
+## 📋 Requirements
 
-1. **Clone the Repo**
+- Unity Hub
+- Unity 2024 or newer
+- Android Build Support (Android SDK, NDK, OpenJDK)
+- New Input System enabled
+
+## 🖥️ Testing on PC
+
+1. Open the project in Unity
+2. Go to **File → Build Settings**
+3. Select **PC, Mac & Linux Standalone**
+4. Click **Switch Platform**
+5. Press **Play** to test using keyboard controls
+
+## 🗂️ Project Structure
+
+- `Assets/Scripts` – Game logic and player controls
+- `Assets/Prefabs` – Obstacles, player, and collectibles
+- `Assets/Scenes` – Main gameplay and UI scenes
+
+**Clone the Repo**
 
 ```bash
 git clone https://github.com/shivakantkurmi/Speedway-Saga.git
 ```
-
-2. **Open in Unity**
+ **Open in Unity**
 
    - Version: Unity 2024+ with new Input System enabled.
 
-3. **Build Target**: Android
+ **Build Target**: Android
 
    - Optionally test on PC with keyboard controls
 
